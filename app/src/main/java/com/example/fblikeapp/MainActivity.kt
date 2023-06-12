@@ -99,10 +99,7 @@ fun FbScaffold(navController: NavHostController) {
                         )
                     }
                     composable(Destination.Notifications.route) {
-                        NotificationsScreen(
-                            navController = navController,
-                            modifier = stdModifier
-                        )
+                        NotificationsScreen(modifier = stdModifier)
                     }
                     composable(Destination.Detail.route,
                         deepLinks = listOf(
